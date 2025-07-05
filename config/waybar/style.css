@@ -175,6 +175,7 @@ window#waybar.hidden {
   border-radius: 0px;
 }
 #custom-home {
+  padding-left: 4px;
   transition: none;
   color: #f2cdcd;
   border-radius: 0px;
@@ -189,8 +190,8 @@ window#waybar.hidden {
 }
 
 #custom-wlogout{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 0px;
   transition: none;
   color: #ffddaa;
   border-radius: 0px;
