@@ -1,0 +1,5 @@
+[credential]
+	helper = libsecret
+[user]
+	name = dev-rajnish
+	email = dev.rajnish@proton.me
