@@ -11,8 +11,7 @@
   [
   "custom/home",
   "hyprland/workspaces",
-  "hyprland/window",
-  "sway/mode"
+  "hyprland/window"
   ],
 
   "modules-right":
@@ -22,6 +21,7 @@
   "custom/swaync",
   "custom/hyprshot",
   "custom/wallpaper",
+  "custom/hyprpicker",
   "idle_inhibitor",
   "network",
   "cpu",
@@ -32,6 +32,13 @@
   "clock",
   "custom/wlogout"
   ],
+
+
+  "custom/hyprpicker": {
+    "format": " ",
+		"tooltip": false,
+    "on-click":"hyprpicker",
+  },
 
 
   "custom/wlogout": {
@@ -156,7 +163,7 @@
 		"scroll-step": 1,
 		"format-muted": "󰸈 {volume}%",
 		"on-click":"pactl set-sink-mute @DEFAULT_SINK@ toggle",
-    "on-click-right": "pwvucontrol",
+    "on-click-right": "pavucontrol",
 		"format-icons": ["󰕿 ", "󰖀 ", "󰕾 "]
 
   },

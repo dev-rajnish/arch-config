@@ -14,5 +14,4 @@ if ! command -v yay &>/dev/null; then
   cd yay-bin
   makepkg -si --noconfirm
   cd ~
-  rm -rf yay-bin
 fi

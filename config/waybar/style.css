@@ -65,6 +65,16 @@ window#waybar.hidden {
   border-radius: 0px;
 }
 
+#custom-hyprpicker {
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: none;
+  color: #b5e8e0;
+  border-bottom: 2px solid #b5e8e0;
+  border-radius: 0px;
+}
+
+
 #battery {
   padding-left: 10px;
   padding-right: 10px;

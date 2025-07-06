@@ -20,7 +20,7 @@ echo -e "\nCloning dev-rajnish.."
 
 #rm -rf ~/arch-config/
 
-git clone https://github.com/dev-rajnish/arch-config.git ~/arch-config >/dev/null
+#git clone https://github.com/dev-rajnish/arch-config.git ~/arch-config >/dev/null
 
 echo -e "\nInstallation starting..."
 
