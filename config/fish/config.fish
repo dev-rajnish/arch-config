@@ -35,3 +35,5 @@ function y
 	end
 	rm -f -- "$tmp"
 end
+export XCURSOR_THEME=Bibata-Modern-Ice
+export XCURSOR_SIZE=24

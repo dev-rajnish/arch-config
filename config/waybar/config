@@ -93,8 +93,8 @@
 "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
-      "activated": "\uf06e",
-      "deactivated": "\uf070"
+      "activated": "\uf06e ",
+      "deactivated": "\uf070 "
     }
   },
 
@@ -116,14 +116,14 @@
 "cpu": {
   "interval": 10,
   "format": "  {}%",
-  "on-click" : "clipman pick -t wofi"
+  "on-click" : " "
   },
 
 
 "memory": {
   "interval": 30,
   "format": "  {}%",
-  "on-click": "bash ~/.config/waybar/custom/logout-menu.sh",
+  "on-click": " ",
 
   },
 

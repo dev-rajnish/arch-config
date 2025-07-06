@@ -34,6 +34,8 @@ echo "copying config to .config"
 
 ln -sf ~/arch-config/config/* ~/.config/
 
+ln -sf ~/arch-config/config/.gtkrc-2.0 ~/
+ln -sf ~/arch-config/config/.icons/ ~/
 echo "done"
 
 # Ensure locate is up to date now that everything has been installed
