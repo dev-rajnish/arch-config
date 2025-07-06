@@ -1,1 +1,1 @@
-yay -S --noconfirm --needed polkit-gnome
+yay -S --noconfirm --needed polkit-gnome gnome-keyring
